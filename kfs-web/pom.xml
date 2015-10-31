@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>kfs-web</artifactId>
+  <artifactId>kfs-vanilla</artifactId>
   <packaging>war</packaging>
   <name>Kuali Financial Web Application</name>
 
