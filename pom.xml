@@ -80,7 +80,7 @@
     <kuali.release.prepare.goals>clean</kuali.release.prepare.goals>
 
     <!-- build properties -->
-    <build.environment>dev</build.environment>
+    <build.environment>vanilla</build.environment>
 
     <rice.web.sources>${project.build.directory}/generated-web-sources/rice-web-sources</rice.web.sources>
     <help.web.sources>${project.build.directory}/generated-web-sources/help-web-sources</help.web.sources>
@@ -158,7 +158,7 @@
 
   </properties>
   <build>
-    <finalName>${project.artifactId}-${build.environment}</finalName>
+    <finalName>${project.artifactId}</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -166,7 +166,7 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>${plugin.tomcat.version}</version>
           <configuration>
-            <path>/${project.artifactId}-${build.environment}</path>
+            <path>/${project.artifactId}</path>
           </configuration>
           <dependencies>
             <dependency>
