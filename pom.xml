@@ -158,7 +158,7 @@
 
   </properties>
   <build>
-    <finalName>${project.artifactId}</finalName>
+    <finalName>${project.artifactId}${build.environment}</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -166,7 +166,7 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>${plugin.tomcat.version}</version>
           <configuration>
-            <path>/${project.artifactId}</path>
+            <path>/${project.artifactId}${build.environment}</path>
           </configuration>
           <dependencies>
             <dependency>
