@@ -107,7 +107,7 @@
     <commons-transaction.version>1.2</commons-transaction.version>
     <itext.version>1.4.8</itext.version>
     <jasperreports.version>2.0.4</jasperreports.version>
-    <javamelody.core.version>1.49.0</javamelody.core.version>
+    <javamelody.core.version>1.74.0</javamelody.core.version>
     <javax.resource.connector.api.version>1.5</javax.resource.connector.api.version>
     <jaxb.version>2.2.6</jaxb.version>
     <jrobin.version>1.5.9</jrobin.version>
